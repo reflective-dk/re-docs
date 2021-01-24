@@ -1,0 +1,17 @@
+{
+  "name": "re-docs",
+  "version": "0.1.0",
+  "description": "Dokumentation",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reflective-dk/re-docs.git"
+  },
+  "keywords": [
+    "reflective",
+    "dokumentation",
+    "documentation"
+  ],
+  "author": "Reflective Code <code@reflective.dk>",
+  "license": "UNLICENSED",
+  "private": true
+}
