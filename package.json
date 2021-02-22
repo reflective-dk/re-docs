@@ -11,6 +11,9 @@
     "dokumentation",
     "documentation"
   ],
+  "scripts": {
+    "dev": "docsify serve docs"
+  },
   "author": "Reflective Code <code@reflective.dk>",
   "license": "UNLICENSED",
   "private": true

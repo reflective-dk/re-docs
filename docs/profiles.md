@@ -55,12 +55,12 @@ oversigt over hvilke data, der er registreret om en medarbejder, og kan bruges
 ifm. regler om certificering, GDPR, kompetencer — og ikke mindst ved ændringer af
 ansættelser.
 
-[Eksempler på profiler](./docs/examples.md)
+[Eksempler på profiler](./examples.md)
 
 Kunden kan selv opbygge og ændre i profiler og afgrænse dem til dér, hvor de er
 har relevans.
 
-[Opbygning af profiler](./docs/profile_editor.md)
+[Opbygning af profiler](./profile-editor.md)
 
 Ændringer til profiler kan på samme måde som al anden information i Reflective
 angives med ikrafttrædelse nu eller et tidspunkt i fremtiden — evt. i forbindelse
@@ -79,9 +79,9 @@ rolle-/ansvarsmodel, som benyttes til afgrænsninger af information, men også s
 data til de eksterne systemer, medarbejderen får adgang til. For mere
 information:
 
-[Profiler i arbejdsgange (Under udarbejdelse)](./docs/profiles_in_processes.md)
+[Profiler i arbejdsgange](./profiles-in-processes.md)
 
-[Administration af systemadgange ved profiler (Under udarbejdelse)](./docs/profiles_administration.md)
+[Administration af systemadgange ved profiler](./profiles-administration.md)
 
 Profiler benyttes også ift. brugerattestering, hvor personaleledere får en
 oversigt over hvilke adgange, lederens medarbejdere har og har haft siden
@@ -89,4 +89,4 @@ seneste attestering. Eftersom profilerne er rettet imod den specifikke del af
 organisationen, og de medarbejdere som lederen har ansvar for, giver det en
 oversigt som lederen kan forholde sig til.
 
-[Profiler i brugerattestering (Under udarbejdelse)](./docs/profiles_in_gdpr.md)
+[Profiler i brugerattestering (Under udarbejdelse)](./profiles-in-gdpr.md)
