@@ -12,7 +12,7 @@
     "documentation"
   ],
   "scripts": {
-    "dev": "docsify serve docs"
+    "dev": "docsify serve docs --port 8080"
   },
   "author": "Reflective Code <code@reflective.dk>",
   "license": "UNLICENSED",
