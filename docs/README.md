@@ -1,8 +1,12 @@
 # Dokumentation
 
+## Løsninger
+
+[Kommunal MDM og IDM](./solutions/municipality.md)
+
 ## Koncepter og begreber
 
-[Profiler](./profiles.md)
+[Profiler](./profiles/profiles.md)
 
 ## Integrationer
 
