@@ -39,3 +39,16 @@
 * [Serviceplatformen](./integrations/serviceplatformen.md)
 * [STIL/UNI-Login](./integrations/uni-login.md)
 * [TalentSoft](./integrations/talentsoft.md)
+
+## Administrationsprocesser
+
+* [Afdelinger / Enheder](./administrationsprocesser/unit.md)
+* [Ansættelser](./administrationsprocesser/employment.md)
+* [Rolle / Ansvar](./administrationsprocesser/role.md)
+* [Systemer](./administrationsprocesser/system.md)
+* [Stillinger](./administrationsprocesser/jobTitle.md)
+* [Lokationer](./administrationsprocesser/location.md)
+
+## Arbejdsgange
+
+* [HO Onboarding](./workflows/hr-onboarding.md)
