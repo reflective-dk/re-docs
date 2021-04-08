@@ -45,7 +45,7 @@
 * [Adresser](./administrationsprocesser/address.md)
 * [Afdelinger / Lokationer](./administrationsprocesser/unit.md)
 * [Ansættelser](./administrationsprocesser/employment.md)
-* [Profiler](../profiles/profile-editor.md)
+* [Profiler](./profiles/profile-editor.md)
 * [Rolle / Ansvar](./administrationsprocesser/role.md)
 * [Stillinger](./administrationsprocesser/job-title.md)
 * [Systemer](./administrationsprocesser/system.md)
