@@ -39,6 +39,6 @@ TS is an online Saas vendor, therefore APIs are expected to be robust and availa
 
 Initial load from TS is done by manually exporting a CSV file of all employees in combination with an initial fetch of all logs from libraries.
 
-Beyound the CSV file upload, all interaction is done by HTTP API.
+Beyond the CSV file upload, all interaction is done by HTTP API.
 
 ![](./ts-sequence.png)
