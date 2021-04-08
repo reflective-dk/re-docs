@@ -3,7 +3,7 @@
 Systemer kan oprettes, afsluttes og ændres i processen for administration
 af systemer.
 
-![](./admin-role-systems.png)
+![](./admin-systems.png)
 *Eksempel på et system klar til at blive ændret*
 
 Alle data kan ændres her direkte. Nogle systemer kommer fra eksterne
