@@ -9,8 +9,13 @@ All of them are converted to Reflective canonical model and made usable to integ
 This enables TalentSoft as a major source in HR data for the tenant.
 
 ## Process
-In this sample TalentSoft integration, data is fetched per
+The process is an integraiton process, which means it is automatically run at a set interval.
+
+![](./talentsoft-import.png)
+*TalentSoft import process*
 
 ## Model
+### Employees
+From talentsoft the Employe object becaomes the source for Person
 
 ## Interaction

@@ -25,7 +25,7 @@
 * [Uni-Lock](./integrations/uni-lock.md)
 * [Timeout](./integrations/timeout.md)
 * [Accubiz](./integrations/accubiz.md)
-* [Sowaio RPA](./integrations/sowaio-rpa.md)
+* [Sowaio RPA](./integrations/sowaio_rpa/readme.md)
 * [ProMark](./integrations/promark.md)
 * [D365](./integrations/d365.md)
 * [Visma](./integrations/visma.md)
@@ -38,7 +38,7 @@
 * [SD Løn](./integrations/sd_loen.md)
 * [Serviceplatformen](./integrations/serviceplatformen.md)
 * [STIL/UNI-Login](./integrations/uni-login.md)
-* [TalentSoft](./integrations/talentsoft.md)
+* [TalentSoft](./integrations/talentsoft/readme.md)
 
 ## Administrationsprocesser
 
