@@ -15,7 +15,13 @@ The process is an integraiton process, which means it is automatically run at a 
 *TalentSoft import process*
 
 ## Model
-### Employees
-From talentsoft the Employe object becaomes the source for Person
+The TS model is bitemporal and via changes over the TS log api, changes into the future are incorporated.
+
+In this table, transformation from TS to RO uniform model are described on an entity level.
+How the individual attributtes are mapped, is customized per tenant.
+
+Entity source mapping.
+
+
 
 ## Interaction
