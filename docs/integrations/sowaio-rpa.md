@@ -18,12 +18,13 @@ Selve robot processen er som vist her.
 ![](./robot-include.png)
 *Selve Robot integrations processen*
 
-## Interaktion
-Integrationen anvender HTTP api'er hos begge parter.
-![](./sequence.png)
-
 ## Model
-Et eksempel på anvendelse kan være oprettelse af Medarbejder i OPUS, hvor der returneres et medarbejderNr, som bagefter anvendes til at skabe en ansættelse.
+Et eksempel på anvendelse kan være oprettelse af Medarbejder i OPUS, hvor der returneres et medarbejderNr, som bagefter anvendes til at skabe en ansættelse (employment).
 
 I dette tilfælde er data til brug for robot eksekvering bestemt af OPUS brugergrænseflade.
 Der kan tilmed ske oversættelse af stamdata tabeller, som kun er kendt af OPUS.
+
+## Interaktion
+Integrationen anvender HTTP api'er hos begge parter.
+
+![](./sequence.png)
