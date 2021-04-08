@@ -25,7 +25,7 @@
 * [Uni-Lock](./integrations/uni-lock.md)
 * [Timeout](./integrations/timeout.md)
 * [Accubiz](./integrations/accubiz.md)
-* [Sowaio RPA](./integrations/sowaio_rpa.md)
+* [Sowaio RPA](./integrations/sowaio-rpa.md)
 * [ProMark](./integrations/promark.md)
 * [D365](./integrations/d365.md)
 * [Visma](./integrations/visma.md)
