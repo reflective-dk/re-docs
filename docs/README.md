@@ -52,4 +52,6 @@
 
 ## Arbejdsgange
 
-* [HO Onboarding](./workflows/hr-onboarding.md)
+* [HO Onboarding](./platform/readme.md#the-Reflective-platform)
+
+## Arkitektur
