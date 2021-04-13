@@ -6,7 +6,7 @@ Som en administrator har jeg behov for at kunne oprette systemer, så jeg kan ti
 
 Givet et eksisterende system katalog
 Når jeg starter processen 'System Administration'
-Så kan jeg få et overblik over eksiterende systemer
+Så kan jeg få et overblik over eksisterende systemer
 Når jeg klikker på et eksisterende system kan jeg se detaljerne
 Når jeg trykker på 'Systemer'
 Så kan jeg se et ikon '+' med hjælpeteksten 'Opret nyt system'

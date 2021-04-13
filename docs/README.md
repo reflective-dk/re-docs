@@ -9,13 +9,15 @@
 [Profiler](./profiles/profiles.md)
 
 ## Integrationer
-
+* [Sowaio RPA](./integrations/sowaio_rpa/readme.md#integration-med-sowaio-rpa)
+* [TalentSoft](./integrations/talentsoft/readme.md#talentsoft-to-reflective-integration)
+* 
 * [Active Directory (Under udarbejdelse)](./integrations/active_directory.md)
 * [ADFS (Under udarbejdelse)](./integrations/adfs.md)
 * [Buanco kantinesystem (Under udarbejdelse)](./integrations/buanco.md)
 * [Columna Cura (Under udarbejdelse)](./integrations/columna_cura.md)
 * [Identity IQ (Under udarbejdelse)](./integrations/identity_iq.md)
-* [Intranote](./integrations/intranote.md)
+* [Intranote (Under udarbejdelse)](./integrations/intranote.md)
 * [KOMBIT Fælles Organisation (STS) (Under udarbejdelse)](./integrations/faelles_organisation.md)
 * [OS2Autoprocess (Under udarbejdelse)](./integrations/os2_autoprocess.md)
 * [OS2Sync (Under udarbejdelse)](./integrations/os2_sync.md)
@@ -25,7 +27,6 @@
 * [Uni-Lock (Under udarbejdelse)](./integrations/uni-lock.md)
 * [Timeout (Under udarbejdelse)](./integrations/timeout.md)
 * [Accubiz (Under udarbejdelse)](./integrations/accubiz.md)
-* [Sowaio RPA](./integrations/sowaio_rpa/readme.md#integration-med-sowaio-rpa)
 * [ProMark (Under udarbejdelse)](./integrations/promark.md)
 * [D365 (Under udarbejdelse)](./integrations/d365.md)
 * [Visma (Under udarbejdelse)](./integrations/visma.md)
@@ -38,7 +39,6 @@
 * [SD Løn (Under udarbejdelse)](./integrations/sd_loen.md)
 * [Serviceplatformen (Under udarbejdelse)](./integrations/serviceplatformen.md)
 * [STIL/UNI-Login (Under udarbejdelse)](./integrations/uni-login.md)
-* [TalentSoft](./integrations/talentsoft/readme.md#talentsoft-to-reflective-integration)
 
 ## Administrationsprocesser
 
@@ -52,7 +52,7 @@
 
 ## Arbejdsgange
 
-* [HO Onboarding](./platform/hr-onboarding.md)
+* [HR Onboarding](./platform/hr-onboarding.md)
 
 ## Arkitektur
 
