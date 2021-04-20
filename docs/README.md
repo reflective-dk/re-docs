@@ -8,7 +8,13 @@
 
 [Profiler](./profiles/profiles.md)
 
-## Integrationer
+## Integration
+
+[Etablering af Integration](./integrations/etablering_af_integration.md#etablering-af-integration)
+
+[Features of integration engine as part of platform vision](./platform/readme.md#integration-service)
+
+### Integrated products
 * [Sowaio RPA](./integrations/sowaio_rpa/readme.md#integration-med-sowaio-rpa)
 * [TalentSoft](./integrations/talentsoft/readme.md#talentsoft-to-reflective-integration)
 
