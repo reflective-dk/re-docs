@@ -68,6 +68,21 @@ Som en administrator har jeg behov for at kunne lave nye profiler
 Så jeg kan tildele rettigheder til systemer i IT porteføljen
 Og tilpasse dem til at de nemt og overskueligt kan allokeres til medabrejdere
 
+Givet at jeg har oprettet et nyt system
+Og startet processen 'System Profile Administration'
+Så kan jeg se det nye system under mappen 'Systemer uden profiler'
+Når jeg folder det nye system ud
+Så kan jeg se noderne 'Adgange' og 'Profiler'
+Og de er begge tomme
+Når jeg trykker på '+' for 'Adgange'
+Så åbner der et detaljebillede af en ny adgang
+Når jeg indtaster et navn 'Test navn'
+Og forlader feltet
+Så kan jeg se at eksmepelvisningen til højre afspejler det nye navn
+Når jeg indtaster en kategori
+Så kan jeg se at feltgruppen til højre opdateres med kategorien
+
+
 
 Som en administrator har jeg behov for at kunne redigere profiler
 Så rettigheder til systemer kan opdateres
