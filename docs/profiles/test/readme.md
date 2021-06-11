@@ -2,7 +2,8 @@
 
 ## Systems
 ```
-Som en administrator har jeg behov for at kunne oprette systemer, så jeg kan tilknytte profiler og rettigheder.
+Som en administrator har jeg behov for at kunne oprette systemer
+Så jeg kan tilknytte profiler og rettigheder.
 ```
 ```
 Givet et eksisterende system katalog
@@ -50,7 +51,8 @@ Så forsvinder elementet
 ```
 
 ```
-Som en administrator har jeg behov for at kunne nedlægge systemer, så jeg kan fjerne systemer der ikke længere anvendes fra kataloget.
+Som en administrator har jeg behov for at kunne nedlægge systemer
+Så jeg kan fjerne systemer der ikke længere anvendes fra kataloget.
 ```
 
 ```
