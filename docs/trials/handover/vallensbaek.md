@@ -37,30 +37,47 @@ Her er Administrative Organisation valgt. Den øverste enhed er valg og træet e
 ![](./hier3.png)
 *Administrativ Organisation åben og visning af specifik enhed*
 
-git tat
+Her er der blevet navigeret ned til Rideakademiet, som der vises detaljer om.
 
 ![](./hier4.png)
 *AD Groups åben og visning af specifik gruppe*
 
-Ved at benytte menuen (de 3 hvide horisontale linier), kan Task Manager vælges,
-hvorved funktionalitet til ændring af data stilles tilrådighed.
+Her vises AD groups, hvor det er filtreret til: "acadre tand".
+
+For at komme over til Task manageren benyttee menuen (de 3 hvide horisontale
+linier), hvorved funktionalitet til ændring af data stilles tilrådighed.
 
 ![](./app-menu.png)
 *Skift til Task Manager / Opgavehåndtering*
 
 ## Task Manager / Opgavehåndtering
 
+Tomt start billede for opgavehåndtering. Hvis der havde været kørende processer
+med opgaver tildelt til login'et, så ville der ligge opgave kort til at tilgå
+og løse dem.
+
 ![](./task-arrow.png)
 *Start siden for opgavehåndtering. Play pilen giver adgang til de processer som kan startes*
+
+For at starte en ny process, benyttes start/play ikonet.
 
 ![](./task-unit-admin.png)
 *Vælg Administration af hierarkier*
 
+Ud fra listen over mulige data ændringsprocesser, vælges "Administration af
+hierakier".
+
 ![](./task-valid-time.png)
 *Ændringer kan gives en beskrivelse og hvornår ændringen træder ikraft*
 
+Det er muligt at tilføge en beskrivelse af hvilke ændringer der skal udføres og
+hvornår ændringerne har virkning, dvs. fra hvilket tidspunkt data bliver synlig
+i data.
+
 ![](./task-hier.png)
 *Vælg hvilket hierarki der ønskes ændret*
+
+
 
 ![](./task-details.png)
 *Vælg hvilket hierarki der ønskes ændret*
@@ -77,3 +94,6 @@ hvorved funktionalitet til ændring af data stilles tilrådighed.
 
 ![](./onboarding0.png)
 *Start onboarding arbejdsgangen start menuen*
+
+![](./onboarding1.png)
+*Stamoplysninger*
