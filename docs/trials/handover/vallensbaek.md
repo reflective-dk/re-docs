@@ -70,7 +70,7 @@ hierakier".
 ![](./task-valid-time.png)
 *Ændringer kan gives en beskrivelse og hvornår ændringen træder ikraft*
 
-Det er muligt at tilføge en beskrivelse af hvilke ændringer der skal udføres og
+Det er muligt at tilføje en beskrivelse af hvilke ændringer der skal udføres og
 hvornår ændringerne har virkning, dvs. fra hvilket tidspunkt data bliver synlig
 i data.
 
@@ -82,7 +82,8 @@ Vælg det administrative hierarki, ud fra listen over hierarkier der kan ændres
 ![](./task-details.png)
 *Detaljer om Tandplejen*
 
-Prøv at navigere til Tandplejen.
+Prøv at navigere til Tandplejen, og få vise data om enheden, ansatte og deres
+roller.
 
 ![](./task-annuller.png)
 *Annuller processen*
