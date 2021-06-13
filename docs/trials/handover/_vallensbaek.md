@@ -15,3 +15,6 @@ Det bringer start billedet med to muligheder
 
 ![](./onboarding0.png)
 *Start onboarding arbejdsgangen start menuen*
+
+![](./onboarding1.png)
+*Stamoplysninger*
