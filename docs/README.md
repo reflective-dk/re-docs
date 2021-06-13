@@ -14,6 +14,11 @@
 
 [Features of integration engine as part of platform vision](./platform/readme.md#integration-service)
 
+## Prøver
+* [Overtagelse Reflective](./trials/handover/reflective.md)
+* [Overtagelse Vallensbaek](./trials/handover/vallensbaek.md)
+
+
 ### Integrated products
 * [Sowaio RPA](./integrations/sowaio_rpa/readme.md#integration-med-sowaio-rpa)
 * [TalentSoft](./integrations/talentsoft/readme.md#talentsoft-to-reflective-integration)

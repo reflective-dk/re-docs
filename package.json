@@ -12,9 +12,12 @@
     "documentation"
   ],
   "scripts": {
-    "dev": "docsify serve docs --port 8080"
+    "build": "cd docs/trials/handover/; markdown-include reflective.json;markdown-include vallensbaek.json"
   },
   "author": "Reflective Code <code@reflective.dk>",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "markdown-include": "^0.4.3"
+  }
 }

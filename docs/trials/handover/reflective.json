@@ -1,0 +1,4 @@
+{
+  "build": "reflective.md",
+  "files": ["_reflective.md"]
+}
