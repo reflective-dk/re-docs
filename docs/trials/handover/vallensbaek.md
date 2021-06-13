@@ -77,15 +77,18 @@ i data.
 ![](./task-hier.png)
 *Vælg hvilket hierarki der ønskes ændret*
 
-
+Vælg det administrative hierarki, ud fra listen over hierarkier der kan ændres.
 
 ![](./task-details.png)
-*Vælg hvilket hierarki der ønskes ændret*
+*Detaljer om Tandplejen*
+
+Prøv at navigere til Tandplejen.
 
 ![](./task-annuller.png)
 *Annuller processen*
 
-
+Der ønskes ikke lave ændringer. Da ejeren/starteren af processen kan annuller
+den, forsvinder processens ene opgave som er allokeret til ejeren.
 
 ## Onboarding
 
