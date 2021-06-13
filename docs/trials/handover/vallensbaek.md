@@ -92,8 +92,11 @@ den, forsvinder processens ene opgave som er allokeret til ejeren.
 
 ## Onboarding
 
+Reflective benytter standarder, og for at beskrive foretningsgange benyttes
+standarden for det som er BPMN.
+
 ![](./onboarding-bpmn.png)
-*Oversigt over arbejdsgangens opgaver*
+*Oversigt over arbejdsgangens opgaver i BPMN*
 
 ![](./onboarding0.png)
 *Start onboarding arbejdsgangen start menuen*
