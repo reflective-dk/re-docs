@@ -8,16 +8,30 @@
 
 [Profiler](./profiles/profiles.md)
 
+## Prøver
+
+Overdragelse og ibrugtagning af systemet sker ved gennemgang af to prøver; en
+overtagelsesprøve og en driftsprøve.
+
+### Overtagelsesprøve
+
+Overtagelsesprøven har til formål at sikre, systemets grundlæggende
+funktionalitet er til stede. De følgende links henviser til eksempler på en
+drejebog til overtagelsesprøven.
+
+* [Overtagelse Reflective](./trials/handover/reflective.md)
+* [Overtagelse Vallensbaek](./trials/handover/vallensbaek.md)
+
+### Driftsprøve
+
+Driftsprøven defineres specifikt ift. den enkelte kunde og har til formål at
+sikre, systemet lever op til de aftalte krav.
+
 ## Integration
 
 [Etablering af Integration](./integrations/etablering_af_integration.md#etablering-af-integration)
 
 [Features of integration engine as part of platform vision](./platform/readme.md#integration-service)
-
-## Prøver
-* [Overtagelse Reflective](./trials/handover/reflective.md)
-* [Overtagelse Vallensbaek](./trials/handover/vallensbaek.md)
-
 
 ### Integrated products
 * [Sowaio RPA](./integrations/sowaio_rpa/readme.md#integration-med-sowaio-rpa)

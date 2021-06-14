@@ -1,8 +1,9 @@
 # Vallensbæk
 
-For at tilgå reflective benyttes den adresse som der er sat op til single signon:
+For at tilgå Reflective benyttes den kundespecifikke adresse sat op til single
+sign-on:
 
-https://reflective.vallensbaek.dk
+https://vallensbaek.reflective.dk
 
 Det bringer start billedet med to muligheder
 
