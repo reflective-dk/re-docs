@@ -1,7 +1,7 @@
-## Start side
+## Startside
 
 ![](./landing.png)
-*Reflective start side. Tandhjulet giver flere adgange*
+*Reflective startside. Tandhjulet giver flere adgange*
 
  - Organization, giver adgang til visning af hierarkidata
  - Task manager, giver adgang til ændring af data
@@ -10,15 +10,16 @@ Det er muligt at få adgang til flere funktionalitetsområder ved at trykke på
 tandhjulet. Hvilke muligheder, styrres af Reflective adgang pr bruger.
 Overtagelsesprøverne udføres med bruger som har alle rettigheder.
 
-## Organisation / Hierarki viser
+## Organisations-/Hierarkiviser
 
-Start siden for organisation/hierarki visning, er en oversigt over hierarkier
+Startsiden for organisations-/hierarkivisning, er en oversigt over hierarkier
 til venstre og filter øverst.
 
 ![](./hier1.png)
-*Start siden for hierarkivisning*
+*Startsiden for organisations-/hierarkivisning*
 
-Ved at vælge et hierarki, kan det navigeres og søges i for at vise detailjer.
+Efter et hierarki er valgt, er det muligt at navigere og søge i for at vise
+detaljer.
 
 ![](./hier2.png)
 *Administrativ Organisation inden søgning / navigering i data*
@@ -36,22 +37,22 @@ Her er der blevet navigeret ned til Rideakademiet, som der vises detaljer om.
 
 Her vises AD groups, hvor det er filtreret til: "acadre tand".
 
-For at komme over til Task manageren benyttee menuen (de 3 hvide horisontale
-linier), hvorved funktionalitet til ændring af data stilles tilrådighed.
+For at komme over til Task Manageren benyttes menuen (de 3 hvide horisontale
+linjer), hvorved funktionalitet til ændring af data stilles tilrådighed.
 
 ![](./app-menu.png)
-*Skift til Task Manager / Opgavehåndtering*
+*Skift til Task Manager/Opgavehåndtering*
 
-## Task Manager / Opgavehåndtering
+## Task Manager/Opgavehåndtering
 
-Tomt start billede for opgavehåndtering. Hvis der havde været kørende processer
-med opgaver tildelt til login'et, så ville der ligge opgave kort til at tilgå
-og løse dem.
+Tomt start billede for Opgavehåndtering. Hvis der havde været kørende processer
+med opgaver tildelt den bruger, der er logget på, ville der ligge opgavekort klar
+til at arbejde med.
 
 ![](./task-arrow.png)
-*Start siden for opgavehåndtering. Play pilen giver adgang til de processer som kan startes*
+*Startsiden for Opgavehåndtering. Start/playikonet giver adgang til de processer som kan startes*
 
-For at starte en ny process, benyttes start/play ikonet.
+For at starte en ny proces, benyttes start/playikonet.
 
 ![](./task-unit-admin.png)
 *Vælg Administration af hierarkier*
