@@ -63,7 +63,7 @@ For at starte en ny process, benyttes start/play ikonet.
 *Vælg Administration af hierarkier*
 
 Ud fra listen over mulige data ændringsprocesser, vælges "Administration af
-hierakier".
+hierarkier".
 
 ![](./task-valid-time.png)
 *Ændringer kan gives en beskrivelse og hvornår ændringen træder ikraft*
