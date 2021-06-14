@@ -20,7 +20,7 @@ funktionalitet er til stede. De følgende links henviser til eksempler på en
 drejebog til overtagelsesprøven.
 
 * [Overtagelse Reflective](./trials/handover/reflective.md)
-* [Overtagelse Vallensbaek](./trials/handover/vallensbaek.md)
+* [Overtagelse Vallensbæk](./trials/handover/vallensbaek.md)
 
 ### Driftsprøve
 

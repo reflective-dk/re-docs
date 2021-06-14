@@ -12,12 +12,10 @@
     "documentation"
   ],
   "scripts": {
-    "build": "cd docs/trials/handover/; markdown-include reflective.json;markdown-include vallensbaek.json"
+    "dev": "docsify serve docs"
   },
   "author": "Reflective Code <code@reflective.dk>",
   "license": "UNLICENSED",
   "private": true,
-  "dependencies": {
-    "markdown-include": "^0.4.3"
-  }
+  "dependencies": {}
 }
