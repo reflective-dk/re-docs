@@ -101,7 +101,7 @@ Tryk send.
 
 ### Godkend
 ![](./onboarding7.png)
-*Godkend*
+*Nederste del af Godkend*
 
 Godkenderen får opgaven, som kan findes ved at vælge "Alle opgaver" fra
 rullegardinet: "Filtrering af dine opgaver".
@@ -113,16 +113,20 @@ Hvis opgaven afvises, skal der gives en begrundelse, hvorefter bestilleren, får
 Stamoplysninger opgaven igen, stadig udfyldt og med begrundelsen for afvisningen,
 således den kan blive rettet og send til godkendelse igen.
 
+Da opgaven er allokeret til en udfører, skal den først overtages, ved at trykke
+Tag object.
 For at godkende skal Godkend checkes af, og tryk Godkend.
 
 ### Oversigt over arbejdsgangens opgaver
 ![](./onboarding8.png)
 *Oversigt over arbejdsgangens opgaver*
 
-Ved at filtrer på ansættelses processen og "Alle opgaver", vises alle udestående
+Ved at filtrer på ansættelses processen og "Opgaver som rekvirant", vises alle udestående
 opgaver. På kortene viser, hvem om nogen der har påtage sig opgaverne. Når alle
 opgaver er udført overføres processens data til produktion. Under opgaveløsningen
 i processen holdes data i en klade, kun synlig for dem som udføre opgaverne.
+
+Profiler/allokeringer til fx. CID samles i en opgave.
 
 Vælg Attester
 
