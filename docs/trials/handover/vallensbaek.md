@@ -144,7 +144,16 @@ Vælg Send
 Godkenderen får herefter Attester opgaven, som kan Godkendes eller processen kan
 anulleres.
 
-#### AD Opdateringer
+#### Lønbehandling
+![](./onboarding-loen.png)
+*Løndata*
+
+Rekviranten, får opgaven om at opdatere KMD Opus med løn data og journaliser
+simuleringsregnearket.
+
+Tag opgaven og når informationerne er indtastet, tryk Udført.
+
+#### Team CID - AD Opdateringer
 ![](./onboarding10.png)
 *AD Bruger*
 
@@ -153,5 +162,43 @@ AD Bruger profilen til kontrol med mulighed for ændringer.
 
 Vælg Videre
 
-![](./onboarding11.png)
+![](./onboarding-ad.png)
 *List AD Adgange*
+
+AD brugeren, og de adgang som automatisk opsættes i AD, præsenteres for Team
+CID AD, som kan holde øje med at det sker korrekt. Efter en periode, kan de to
+bruger opgaver i AD opdateringer, fjernes således opdateringerne sker automatisk.
+
+Tag opgaven og når informationerne er indtastet, tryk Udført.
+
+#### Team CID
+![](./onboarding-cid.png)
+*Den nederste del af CID opgaven*
+Opgaven indeholder allokeringer for:
+
+- CPR Web
+- Opus
+- RAKAT
+- Telefoni
+
+Tag opgaven og når informationerne er indtastet, tryk Udført.
+
+#### Team CSF
+![](./onboarding-csf.png)
+*KMD Booking*
+
+For denne ansættelse er det kun KMD Booking som Team CSF står for.
+
+Tag opgaven og når informationerne er indtastet, tryk Udført.
+
+### Onboarding arbejdsgangen er slut
+
+Når alle opgaver er udført, indføres kladedata ind i produktion, og ansættelsens
+AD Brugeren oprettes og indsættes i de relevante grupper.
+
+Allokeringer benyttes over for Lederen ifm. brugerattestering og det er de
+sammen afgrænsede profiler, der benyttes ved Administration af den ansattes
+allokeringer eller ifm. en ændring af ansættelsesforholdet.
+
+Ved ophør af ansættelsen kender Reflective allerede allokeringerne og tilsvarende
+automatiske og manuelle udførende opgaver udføres.
