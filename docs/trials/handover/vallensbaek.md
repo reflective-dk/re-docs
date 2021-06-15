@@ -82,10 +82,11 @@ Der dannes en brugeropgave til bestilleren, som opstår på opgavebordet når
 simuleringsregnearket er dannet. Tryk på ringen med to pile ved siden af i'et
 til højre øverst, for at opdatere eller F5.
 
+![](./onboarding4.png)
 Vælg Lønsimuleringsopgaven.
 
 ### Lønsimulering
-![](./onboarding4.png)
+![](./onboarding5.png)
 *Lønsimulering*
 
 Her vises de indtastede lønoplysninger og en liste over vedhæftede filer.
@@ -93,8 +94,13 @@ Det er her muligt at hente regnearket, og benytte det til lønsimulering. Når
 simuleringen er klar, uploades regnearket igen, og ansættelsen sendes til
 godkendelses hos godkenderen der blev valg ifm. stamoplysninger.
 
+![](./onboarding6.png)
+*Lønsimulering*
+
+Tryk send.
+
 ### Godkend
-![](./onboarding5.png)
+![](./onboarding7.png)
 *Godkend*
 
 Godkenderen får opgaven, som kan findes ved at vælge "Alle opgaver" fra
@@ -110,7 +116,7 @@ således den kan blive rettet og send til godkendelse igen.
 For at godkende skal Godkend checkes af, og tryk Godkend.
 
 ### Oversigt over arbejdsgangens opgaver
-![](./onboarding6.png)
+![](./onboarding8.png)
 *Oversigt over arbejdsgangens opgaver*
 
 Ved at filtrer på ansættelses processen og "Alle opgaver", vises alle udestående
@@ -123,7 +129,7 @@ Vælg Attester
 ### Opgaveløsning
 
 #### Attester
-![](./onboarding7.png)
+![](./onboarding9.png)
 *Attester*
 
 Opgaven er automatisk givet til bestilleren som står for at indhente de
@@ -135,7 +141,7 @@ Godkenderen får herefter Attester opgaven, som kan Godkendes eller processen ka
 anulleres.
 
 #### AD Opdateringer
-![](./onboarding8.png)
+![](./onboarding10.png)
 *AD Bruger*
 
 To opgaver går til udfører, som har ansvar for AD opdateringer. Først opgave viser
@@ -143,5 +149,5 @@ AD Bruger profilen til kontrol med mulighed for ændringer.
 
 Vælg Videre
 
-![](./onboarding9.png)
+![](./onboarding11.png)
 *List AD Adgange*
