@@ -2,6 +2,16 @@
 
 ## Løsninger
 
+### Kommunal brancheløsning
+
+Reflectives kommunale brancheløsning adresserer på unik vis kommunernes behov
+inden for _Organisation_, _Medarbejdere_, _Roller_, _IDM_, _Processer_,
+_Integrationer_ og _Datakvalitet_.
+
+[Løsningsbeskrivelse](./solutions/loesningsbeskrivelse.md)
+
+#### Præsentation
+
 [Kommunal MDM og IDM](./solutions/municipality.md)
 
 ## Koncepter og begreber
