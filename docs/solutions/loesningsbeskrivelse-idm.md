@@ -51,11 +51,63 @@ brugergrænseflader her:
 
 ### Systemer
 
+Et _System_ er i Reflective et bredere begreb end i mange andre
+IDM-løsninger. Det omfatter naturligvis almindelige IT-systemer, såsom Cura,
+Acadre eller UniLock, men dækker også mere abstrakte størrelser som _Telefoni_ og
+_KLE Opmærkning_. Grunden er, at mange af de samme principper og behov gør sig
+gældende, selv om vi er vandt til at tænke systemerne ned i forskellige
+kasser. Et telefonnummer kan betragtes som en adgang til Telefoni-systemet, og et
+udvalg af KLE-emner kan betragtes som en adgang ind i KLE-verdenen; faktisk
+bruges KLE-opmærkning netop til adgangsgivning (afgrænsning) i diverse
+sagsbehandlingssystemer.
+
+Fordelene ved at tænke _System_ lidt bredere er:
+
+- Administration, visning og behandling af informationen følger de samme mønstre,
+så løsningens brugere oplever en høj grad af genkendelighed.
+- De samme værktøjer kan genbruges på kryds og tværs, hvilket øger løsningens
+funktionalitet.
+- Ledere og systemansvarlige kan periodisk attestere KLE-opmærkning, ressourcer
+  o.lign. på samme måde som adgange til fagsystemerne. Dette løfter kvaliteten og
+  sikkerheden.
+
 ### Systemprofiler
 
-Systemprofiler, eller bare profiler,
+En _Systemprofil_, eller bare _Profil_, er en målretning af et sæt specifikke
+roller, adgange, ressourcer mv. i et konkret system. Og formålet med en profil
+er at begrænse mængden af information, som løsningens brugere skal tage stilling
+til i forskellige sammenhænge. Dette skaber et meget bedre overblik for ledere og
+systemansvarlige og reducerer kraftigt risikoen for fejl.
+
+Profiler kan målrettes helt ud til konkrete stillinger og roller bestemte steder
+i organisationen, på baggrund af den information løsningen allerede har til
+rådighed. F.eks. ved administration af adgange til en medarbejder, der er ansat
+som tandlæge på en skole i kommunen, eller en IT-medarbejder, der har rollen som
+systemansvarlig for et fagsystem.
+
+Når de pågældendes ledere enten skal rekvirere nye adgange eller attestere
+eksisterende, skal de kun forholde sig til profiler målrettet den konkrete
+situation. Og det bliver pludselig meget synligt, hvis en medarbejder har nogle
+uventede adgange fra atypiske profiler eller systemer.
 
 ### Adgange
+
+En _Adgang_ i Reflective repræsenterer alt dét som i forskellige andre systemer
+kaldes roller, adgange, rettigheder, ressourcer etc. Adgange er organiseret i
+profiler (se ovenfor) og er altid tilknyttet et specifikt system.
+
+Hvis det eksterne system internt tildeler rettigheder til sine brugere på
+baggrund af gruppetilhør i Active Directory, så vil systemets adgange i løsningen
+være knyttet til de relevante AD-grupper, så en adgangstildeling udmønter sig i
+de rigtige gruppemedlemskaber i Active Directory.
+
+Hvis systemet bruger en anden form for rettighedsstyring, skal løsningen
+enten provisionere systemet gennem en integration, eller vedligeholdelsen skal
+foretages som en manuel opgave i en _Tovholderproces_.
+
+Læs mere om integrationer her:
+[Integrationer](solutions/loesningsbeskrivelse-integrationer.md) og processer
+her: [Processer](solutions/loesningsbeskrivelse-processer.md).
 
 ### Adgangstildelinger
 
@@ -66,6 +118,11 @@ Systemprofiler, eller bare profiler,
 ## IDM-livscyklus
 
 ### Rekvirering og tildeling
+
+### Ændringer
+
+Ændringer til tildeling eller pga. af flytning i organisationen eller ændringer
+til ansættelser
 
 ### Periodisk attestering
 
