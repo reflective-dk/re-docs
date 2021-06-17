@@ -49,6 +49,8 @@ brugergrænseflader her:
 
 ## Begreber
 
+![](idm-model.png)
+
 ### Systemer
 
 Et _System_ er i Reflective et bredere begreb end i mange andre
@@ -71,7 +73,7 @@ funktionalitet.
   o.lign. på samme måde som adgange til fagsystemerne. Dette løfter kvaliteten og
   sikkerheden.
 
-### Systemprofiler
+### Profiler
 
 En _Systemprofil_, eller bare _Profil_, er en målretning af et sæt specifikke
 roller, adgange, ressourcer mv. i et konkret system. Og formålet med en profil
