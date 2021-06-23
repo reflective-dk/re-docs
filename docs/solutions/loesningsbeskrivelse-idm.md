@@ -24,8 +24,8 @@ relevant information, både ved tildeling og den periodiske attestering.
 
 Hvis kommunen vedligeholder f.eks. systemer og roller i ét eller flere eksterne
 systemer, kan data læses ind i Reflective ved et initielt load eller
-synkroniseres løbende gennem en integration, hvis kommunen ønsker at fortsætte
-med de øvrige systemer som autoritativ kilde til denne information.
+synkroniseres løbende gennem en integration, hvis de øvrige systemer fortsat skal
+være autoritativ kilde til denne information.
 
 Hvis Reflective ikke allerede har en integration til det pågældende system, er
 det normalt ikke svært at etablere en, såfremt systemet kan levere et udtræk
@@ -112,6 +112,31 @@ Læs mere om integrationer her:
 her: [Processer](solutions/loesningsbeskrivelse-processer.md).
 
 ### Adgangstildelinger
+
+Rettigheder og adgange organiseres, som beskrevet ovenfor, vha. profiler
+målrettet specifikke situationer. Den faktiske _tildeling_ af de relevante
+adgange foregår enten i en forretningsvendt arbejdsgang eller i en
+administrationsproces til oprettelse, ændring og nedlæggelse af eksisterende
+adgange.
+
+Den forretningsvendte arbejdsgang har et bestillingstrin, hvor en rekvirent
+udpeger de nødvendige profiler og tilretter eventuelle detaljer, og et eller
+flere udførselstrin, hvor løsningen automatisk skaber opgaverne og tildeler dem
+de rette aktører. Hvis rekvirenten ikke er _lederen_, kan der også være et
+godkendertrin, hvor den nærmeste leder skal godkende de forestående ændringer.
+
+I bestillingstrinnet præsenteres rekvirenten som udgangspunkt kun for profiler
+målrettet den relevante medarbejder (se afsnittet om profiler ovenfor). Ved tryk
+på en knap _Øvrige profiler_ præsenteres rekvirenten for de andre profiler.
+
+Udførselsopgaverne kan i nogle tilfælde eksekveres helt automatisk, som
+f.eks. ved oprettelse af gruppetilhør i Active Directory, men hvis IT-afdelingen
+gerne vil gennemse ændringerne, inden de føres ud i livet, kan løsningen
+præsentere en rapport til godkendelse først. I andre tilfælde, hvor løsningen
+ikke har en direkte integration endnu, bliver udførselsopgaven lagt som en manuel
+opgave til den, der sidder som administrator for det pågældende system. Men i
+alle tilfælde omhandler hver udførselsopgave kun de profiler, der er relevant for
+den udførende aktør.
 
 ### Brugere
 
