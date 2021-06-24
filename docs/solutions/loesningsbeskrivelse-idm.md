@@ -105,7 +105,7 @@ de rigtige gruppemedlemskaber i Active Directory.
 
 Hvis systemet bruger en anden form for rettighedsstyring, skal løsningen
 enten provisionere systemet gennem en integration, eller vedligeholdelsen skal
-foretages som en manuel opgave i en _Tovholderproces_.
+foretages som en manuel opgave.
 
 Læs mere om integrationer her:
 [Integrationer](solutions/loesningsbeskrivelse-integrationer.md) og processer
@@ -119,11 +119,15 @@ adgange foregår enten i en forretningsvendt arbejdsgang eller i en
 administrationsproces til oprettelse, ændring og nedlæggelse af eksisterende
 adgange.
 
+![](generic-idm.png) _Forretningsvendt arbejdsgang til oprettelse og justeringer
+af adgangstildelinger_
+
 Den forretningsvendte arbejdsgang har et bestillingstrin, hvor en rekvirent
 udpeger de nødvendige profiler og tilretter eventuelle detaljer, og et eller
 flere udførselstrin, hvor løsningen automatisk skaber opgaverne og tildeler dem
-de rette aktører. Hvis rekvirenten ikke er _lederen_, kan der også være et
-godkendertrin, hvor den nærmeste leder skal godkende de forestående ændringer.
+de rette aktører. Hvis rekvirenten ikke er medarbejderens _leder_, kan der også
+være et godkendertrin, hvor den nærmeste leder skal godkende de forestående
+ændringer.
 
 I bestillingstrinnet præsenteres rekvirenten som udgangspunkt kun for profiler
 målrettet den relevante medarbejder (se afsnittet om profiler ovenfor). Ved tryk
