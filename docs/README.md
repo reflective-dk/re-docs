@@ -92,3 +92,7 @@ sikre, systemet lever op til de aftalte krav.
 ## Arkitektur
 
 * [Platform](./platform/readme.md#the-reflective-platform)
+
+## UI-komponenter
+
+* [Opmærkning](./ui-components/tagging.md#opmærkningskomponent)
