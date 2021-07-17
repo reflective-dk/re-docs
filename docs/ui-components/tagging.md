@@ -18,8 +18,8 @@ tilfældet KLE-opmærkning af enheder, er _KLE-emnerne_ vores mærkater.
 til en _entitet_. I tilfældet KLE-opmærkning af enheder, er _tilknytningen af
 Emne A til Enhed X_ en opmærkning.
 
-**Markeringsklasse**: En markeringsklasse er en situationsafhængig klassificering
-af opmærkningerne. I tilfældet KLE-opmærkning af enheder, kunne disse klasser
+**Opmærkningstype**: En opmærkningstype er en situationsafhængig klassificering
+af opmærkningerne. I tilfældet KLE-opmærkning af enheder, kunne disse typer
 f.eks. være _Ansvarsområde_ og _Interesseområde_.
 
 ## Brugergrænseflade
