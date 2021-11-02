@@ -55,7 +55,7 @@ oversigt over hvilke data, der er registreret om en medarbejder, og kan bruges
 ifm. regler om certificering, GDPR, kompetencer — og ikke mindst ved ændringer af
 ansættelser.
 
-[Eksempler på profiler](profiles/examples.md)
+[Eksempler på profiler](profiles/examples2.md)
 
 Kunden kan selv opbygge og ændre i profiler og afgrænse dem til dér, hvor de er
 har relevans.
