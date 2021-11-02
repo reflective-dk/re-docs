@@ -79,9 +79,9 @@ rolle-/ansvarsmodel, som benyttes til afgrænsninger af information, men også s
 data til de eksterne systemer, medarbejderen får adgang til. For mere
 information:
 
-[Profiler i arbejdsgange](profiles/profiles-in-processes.md)
+[Profiler i arbejdsgange (Under udarbejdelse)](profiles/profiles-in-processes.md)
 
-[Administration af systemadgange ved profiler](profiles/profiles-administration.md)
+[Administration af systemadgange ved profiler (Under udarbejdelse)](profiles/profiles-administration.md)
 
 Profiler benyttes også ift. brugerattestering, hvor personaleledere får en
 oversigt over hvilke adgange, lederens medarbejdere har og har haft siden
