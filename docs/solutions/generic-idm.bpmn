@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0kyf5mr" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.1.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
+  <bpmn:collaboration id="Collaboration_1delyik">
+    <bpmn:participant id="Participant_1euqv77" name="IDM" processRef="Process_0rjnm8d" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0rjnm8d" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_13wobre">
+      <bpmn:lane id="Lane_0sfg1g5" name="Rekvirent">
+        <bpmn:flowNodeRef>Activity_18w6xm8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_02uj5oo</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_1u31vrv" name="Leder - personale">
+        <bpmn:flowNodeRef>Activity_1eiz8p8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ExclusiveGateway_195qyju</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ExclusiveGateway_16yngkt</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_12nqbk5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1hjjlgl</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_11t953p" name="Admin for Active Directory">
+        <bpmn:flowNodeRef>Task_1wjer6x</bpmn:flowNodeRef>
+        <bpmn:childLaneSet id="LaneSet_1egpkg4" />
+      </bpmn:lane>
+      <bpmn:lane id="Lane_0mre091" name="Admin for System X/Y/Z">
+        <bpmn:flowNodeRef>Activity_02d3vvn</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:sequenceFlow id="Flow_09i7q51" name="Rekvirenten er medarbejderens leder" sourceRef="Activity_18w6xm8" targetRef="ExclusiveGateway_195qyju" />
+    <bpmn:sequenceFlow id="Flow_09pxb0l" sourceRef="Event_02uj5oo" targetRef="Activity_18w6xm8" />
+    <bpmn:sequenceFlow id="Flow_1oxg7q2" name="Rekvirenten&#10;er ikke medarbejderens leder" sourceRef="Activity_18w6xm8" targetRef="Activity_1eiz8p8" />
+    <bpmn:sequenceFlow id="SequenceFlow_0lz2gmv" sourceRef="Activity_1eiz8p8" targetRef="ExclusiveGateway_195qyju" />
+    <bpmn:sequenceFlow id="SequenceFlow_11o07ed" sourceRef="ExclusiveGateway_195qyju" targetRef="Task_1wjer6x" />
+    <bpmn:userTask id="Activity_1eiz8p8" name="Godkend">
+      <bpmn:incoming>Flow_1oxg7q2</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0lz2gmv</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask id="Activity_18w6xm8" name="Bestil adgange">
+      <bpmn:incoming>Flow_09pxb0l</bpmn:incoming>
+      <bpmn:outgoing>Flow_09i7q51</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1oxg7q2</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:startEvent id="Event_02uj5oo" name="Start">
+      <bpmn:outgoing>Flow_09pxb0l</bpmn:outgoing>
+      <bpmn:signalEventDefinition id="SignalEventDefinition_1dl14np" />
+    </bpmn:startEvent>
+    <bpmn:inclusiveGateway id="ExclusiveGateway_195qyju">
+      <bpmn:incoming>Flow_09i7q51</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0lz2gmv</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_11o07ed</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_14k7eov</bpmn:outgoing>
+    </bpmn:inclusiveGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_0hneuf1" sourceRef="ExclusiveGateway_16yngkt" targetRef="Activity_12nqbk5" />
+    <bpmn:sequenceFlow id="SequenceFlow_0o8797r" sourceRef="Activity_12nqbk5" targetRef="Event_1hjjlgl" />
+    <bpmn:sequenceFlow id="SequenceFlow_14k7eov" sourceRef="ExclusiveGateway_195qyju" targetRef="Activity_02d3vvn" />
+    <bpmn:sequenceFlow id="SequenceFlow_1utdz5a" sourceRef="Activity_02d3vvn" targetRef="ExclusiveGateway_16yngkt" />
+    <bpmn:userTask id="Task_1wjer6x" name="Ændringer gennemses eventuelt af IT">
+      <bpmn:incoming>SequenceFlow_11o07ed</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0vr02wk</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0vr02wk" sourceRef="Task_1wjer6x" targetRef="ExclusiveGateway_16yngkt" />
+    <bpmn:inclusiveGateway id="ExclusiveGateway_16yngkt">
+      <bpmn:incoming>SequenceFlow_1utdz5a</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0vr02wk</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0hneuf1</bpmn:outgoing>
+    </bpmn:inclusiveGateway>
+    <bpmn:serviceTask id="Activity_12nqbk5" name="Sæt i produktion">
+      <bpmn:incoming>SequenceFlow_0hneuf1</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0o8797r</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="Event_1hjjlgl" name="Slut">
+      <bpmn:incoming>SequenceFlow_0o8797r</bpmn:incoming>
+      <bpmn:signalEventDefinition id="SignalEventDefinition_0kfvfct" />
+    </bpmn:endEvent>
+    <bpmn:userTask id="Activity_02d3vvn" name="Udfør manuelle opgaver">
+      <bpmn:incoming>SequenceFlow_14k7eov</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1utdz5a</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:association id="Association_1waecet" sourceRef="Event_02uj5oo" targetRef="TextAnnotation_1u0k24q" />
+    <bpmn:association id="Association_13zbmfw" sourceRef="Activity_18w6xm8" targetRef="TextAnnotation_1hr9z96" />
+    <bpmn:association id="Association_0vvr8ua" sourceRef="Activity_02d3vvn" targetRef="TextAnnotation_117483w" />
+    <bpmn:association id="Association_1i0ok6l" sourceRef="Task_1wjer6x" targetRef="TextAnnotation_04u4soy" />
+    <bpmn:textAnnotation id="TextAnnotation_1u0k24q">
+      <bpmn:text>Arbejdsgangen starter ved oprettelse eller ændringer til en medarbejders ansættelse</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_117483w">
+      <bpmn:text>Administratorer for de enkelte systemer får manuelle opgaver</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_04u4soy">
+      <bpmn:text>Et gennemsyn af de forestående ændringer kan slås til og fra efter behov</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_1hr9z96">
+      <bpmn:text>De relevante profiler vises for rekvirenten, der foretager de nødvendige valg og justeringer</bpmn:text>
+    </bpmn:textAnnotation>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1delyik">
+      <bpmndi:BPMNShape id="Participant_1euqv77_di" bpmnElement="Participant_1euqv77" isHorizontal="true">
+        <dc:Bounds x="129" y="79" width="984" height="702" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0sfg1g5_di" bpmnElement="Lane_0sfg1g5" isHorizontal="true">
+        <dc:Bounds x="159" y="79" width="954" height="241" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1u31vrv_di" bpmnElement="Lane_1u31vrv" isHorizontal="true">
+        <dc:Bounds x="159" y="320" width="954" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_11t953p_di" bpmnElement="Lane_11t953p" isHorizontal="true">
+        <dc:Bounds x="159" y="470" width="954" height="156" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1u0k24q_di" bpmnElement="TextAnnotation_1u0k24q">
+        <dc:Bounds x="232" y="97" width="179" height="57" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1hr9z96_di" bpmnElement="TextAnnotation_1hr9z96">
+        <dc:Bounds x="478" y="97" width="184" height="57" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_117483w_di" bpmnElement="TextAnnotation_117483w">
+        <dc:Bounds x="297" y="656" width="131" height="59" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_09i7q51_di" bpmnElement="Flow_09i7q51">
+        <di:waypoint x="410" y="206" />
+        <di:waypoint x="499" y="206" />
+        <di:waypoint x="499" y="370" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="510" y="246" width="80" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_09pxb0l_di" bpmnElement="Flow_09pxb0l">
+        <di:waypoint x="238" y="206" />
+        <di:waypoint x="310" y="206" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1oxg7q2_di" bpmnElement="Flow_1oxg7q2">
+        <di:waypoint x="360" y="246" />
+        <di:waypoint x="360" y="355" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="273" y="253" width="80" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Activity_18w6xm8_di" bpmnElement="Activity_18w6xm8" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
+        <dc:Bounds x="310" y="166" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0d06gsd_di" bpmnElement="Event_02uj5oo">
+        <dc:Bounds x="202" y="188" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="208" y="231" width="24" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1eiz8p8_di" bpmnElement="Activity_1eiz8p8" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
+        <dc:Bounds x="310" y="355" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1hjjlgl_di" bpmnElement="Event_1hjjlgl">
+        <dc:Bounds x="1020" y="377" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1028" y="353" width="19" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_1waecet_di" bpmnElement="Association_1waecet">
+        <di:waypoint x="231" y="192" />
+        <di:waypoint x="258" y="154" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_13zbmfw_di" bpmnElement="Association_13zbmfw">
+        <di:waypoint x="410" y="187" />
+        <di:waypoint x="522" y="173" />
+        <di:waypoint x="533" y="154" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_0vvr8ua_di" bpmnElement="Association_0vvr8ua">
+        <di:waypoint x="573" y="720" />
+        <di:waypoint x="515" y="738" />
+        <di:waypoint x="428" y="689" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Lane_0mre091_di" bpmnElement="Lane_0mre091" isHorizontal="true">
+        <dc:Bounds x="159" y="626" width="954" height="155" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="InclusiveGateway_0pqnblw_di" bpmnElement="ExclusiveGateway_195qyju">
+        <dc:Bounds x="474" y="370" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0lz2gmv_di" bpmnElement="SequenceFlow_0lz2gmv">
+        <di:waypoint x="410" y="395" />
+        <di:waypoint x="474" y="395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="InclusiveGateway_0rd9wnv_di" bpmnElement="ExclusiveGateway_16yngkt">
+        <dc:Bounds x="741" y="370" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_11o07ed_di" bpmnElement="SequenceFlow_11o07ed">
+        <di:waypoint x="499" y="420" />
+        <di:waypoint x="499" y="543" />
+        <di:waypoint x="573" y="543" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="UserTask_1ymsy00_di" bpmnElement="Task_1wjer6x" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
+        <dc:Bounds x="573" y="503" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_04u4soy_di" bpmnElement="TextAnnotation_04u4soy">
+        <dc:Bounds x="824" y="492" width="158" height="54" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_1i0ok6l_di" bpmnElement="Association_1i0ok6l">
+        <di:waypoint x="673" y="565" />
+        <di:waypoint x="806" y="579" />
+        <di:waypoint x="859" y="546" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0hneuf1_di" bpmnElement="SequenceFlow_0hneuf1">
+        <di:waypoint x="791" y="395" />
+        <di:waypoint x="853" y="395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0o8797r_di" bpmnElement="SequenceFlow_0o8797r">
+        <di:waypoint x="953" y="395" />
+        <di:waypoint x="1020" y="395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_14k7eov_di" bpmnElement="SequenceFlow_14k7eov">
+        <di:waypoint x="499" y="420" />
+        <di:waypoint x="499" y="705" />
+        <di:waypoint x="573" y="705" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1utdz5a_di" bpmnElement="SequenceFlow_1utdz5a">
+        <di:waypoint x="673" y="705" />
+        <di:waypoint x="766" y="705" />
+        <di:waypoint x="766" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_04wnxyh_di" bpmnElement="Activity_12nqbk5" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
+        <dc:Bounds x="853" y="355" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0vr02wk_di" bpmnElement="SequenceFlow_0vr02wk">
+        <di:waypoint x="673" y="543" />
+        <di:waypoint x="766" y="543" />
+        <di:waypoint x="766" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="UserTask_1mmvdg3_di" bpmnElement="Activity_02d3vvn" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
+        <dc:Bounds x="573" y="665" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
