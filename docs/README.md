@@ -40,7 +40,7 @@ sikre, systemet lever op til de aftalte krav.
 ## Integration
 
 [Etablering af Integration](./integrations/etablering_af_integration.md#etablering-af-integration)
-
+[Central model problem](./integrations/central_model_problem.md#central-model-problem)
 [Features of integration engine as part of platform vision](./platform/readme.md#integration-service)
 
 ### Integrated products
