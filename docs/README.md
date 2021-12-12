@@ -2,6 +2,10 @@
 
 ## Løsninger
 
+### Samarbejde
+
+[Bankdata](./solutions/bankdata.md)
+
 ### Kommunal brancheløsning
 
 Reflectives kommunale brancheløsning adresserer på unik vis kommunernes behov
