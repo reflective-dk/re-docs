@@ -1,0 +1,19 @@
+Client -> ReProxy: /app/process
+ReProxy -> ReEntry: access ok?
+ReEntry -> ReProxy: not logged in
+ReProxy -> Client: redirect to ADFS
+Client-> ADFS: /adfs/oauth2/authorize with OAuth2 client params
+ADFS -> Client: sign in?
+Client -> ADFS: <credentials>
+ADFS -> Client: <ok> redirect to Reflective
+Client -> ReProxy: /app/login/?code=<authorization code>&state=<redirect uri>
+ReProxy --> ReEntry: <forward>
+ReEntry -> ADFS: /adfs/oauth2/token with OAuth2 grant params
+ReProxy -> ReEntry: login
+ADFS --> ReEntry: <access token>
+ReEntry -> ReEntry: validateToken()
+ReEntry -> Client: redirect with issued JWT with claims
+Client -> ReProxy: /app/process
+ReProxy -> ReEntry: access ok?
+ReEntry --> ReProxy: <ok>
+ReProxy --> Client: <ressource>
